@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background-image: url('https://iili.io/3CmhPZx.jpg'); /* Background image */
+    background-size: cover; /* Fit the image to the screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.countdown-box {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-box span {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.countdown-box .label {
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 5px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 70%;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #2575fc;
+    color: #fff;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+    background: #1a5bbf;
+}
